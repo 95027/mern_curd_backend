@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended : false }));
 // cross origion resource sharing
 // for sharing data from frontend to backend through diff origions
 app.use(cors({
-    origin : ["http://localhost:4000", "https://mern_crud_app.onrender.com"]
+    origin : ["http://localhost:3000", "https://mern-crud-app-s0ny.onrender.com"]
 }));
 
 app.get("/", (req, res) => {
